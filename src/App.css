@@ -1,0 +1,106 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image: url("https://wallpapercave.com/wp/wp3082432.jpg"); */
+  background-image: url("https://wallpaperaccess.com/full/254367.png");
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}
+
+h5 {
+  margin: 0;
+  padding: 0;
+}
+
+/* <----------------------------------------------------------------------------------------------------------------------------> */
+
+/* App styles */
+
+.app {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  align-items: center;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app__background {
+  position: absolute;
+  height: 100%;
+  width: 40%;
+  top: 0;
+  left: 0;
+  background-color: white;
+  opacity: 60%;
+  z-index: -5;
+  border-radius: 20px;
+  -webkit-box-shadow: 6px 8px 8px 0px rgb(97, 95, 95);
+  -moz-box-shadow: 6px 8px 8px 0px rgb(97, 95, 95);
+  box-shadow: 6px 8px 8px 0px rgb(165, 194, 212);
+}
+
+.app__searchButton {
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 10px;
+  position: absolute;
+  bottom: 17%;
+  color: black;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+.app__searchButton:hover {
+  border: 2px solid rgb(77, 137, 176);
+}
+
+.app__input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40vw;
+  height: 100vh;
+}
+
+.app__input > ul {
+  position: absolute;
+  top: 5%;
+  left: -15px;
+  width: 37vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 10;
+  list-style: none;
+}
+.app__input > ul > li {
+  cursor: pointer;
+  color: black;
+  padding: 20px;
+  font-size: 20px;
+}
+.app__input > ul > li:hover {
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.selected-active {
+  border-bottom: 2px solid rgb(255, 49, 83) !important;
+}

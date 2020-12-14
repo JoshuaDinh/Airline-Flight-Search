@@ -1,0 +1,66 @@
+.flightDetails {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+  -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11),
+    0 2px 2px rgba(0, 0, 0, 0.11), 0 4px 4px rgba(0, 0, 0, 0.11),
+    0 8px 8px rgba(0, 0, 0, 0.11), 0 16px 16px rgba(0, 0, 0, 0.11),
+    0 32px 32px rgba(0, 0, 0, 0.11);
+  -moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 8px 8px rgba(0, 0, 0, 0.11),
+    0 16px 16px rgba(0, 0, 0, 0.11), 0 32px 32px rgba(0, 0, 0, 0.11);
+}
+
+.flightDetails__info-Container {
+  height: 30%;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flightDetails__info-Container,
+h2 {
+  align-items: center;
+}
+
+.flightDetails__info > h5 {
+  color: rgb(77, 137, 176);
+}
+.flightDetails__info > h3 {
+  color: black;
+  letter-spacing: 1px;
+  width: 20px;
+}
+
+.flightDetails__prices > p {
+  font-size: 12px;
+  color: black;
+}
+.flightDetails__cachedPrice {
+  font-size: 10px;
+  color: grey !important;
+}
+.flightDetails__prices > h2 {
+  color: rgb(5, 170, 5);
+  letter-spacing: 0.5px;
+  border-bottom: 1px solid black;
+}
+
+.flightDetails__prices span {
+  color: rgb(255, 49, 83);
+}
+
+.flightDetails__perTraveler {
+  font-size: 10px;
+  color: rgb(77, 137, 176) !important;
+}
+.flightDetails__locations {
+  display: grid;
+  font-size: 12px;
+  color: grey;
+}

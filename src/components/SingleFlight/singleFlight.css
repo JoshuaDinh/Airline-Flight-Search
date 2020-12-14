@@ -1,0 +1,33 @@
+.singleFlight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40vw;
+}
+.singleFlight__input > input {
+  border-radius: 10px;
+  padding: 10px;
+  outline: none;
+  width: 70%;
+}
+.singleFlight__input {
+  display: flex;
+  justify-content: center;
+}
+
+.singleFlight__inputContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 500px;
+  width: 100%;
+}
+
+.singleFlight__datePicker {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+datalist {
+  height: 200px;
+}

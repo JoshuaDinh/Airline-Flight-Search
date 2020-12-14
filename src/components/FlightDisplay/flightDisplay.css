@@ -1,0 +1,19 @@
+.flightDisplay {
+  position: absolute;
+  top: -900px;
+  right: 0%;
+  height: 100%;
+  width: 60%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  line-height: 25px;
+  flex-direction: column;
+  align-items: center;
+  z-index: -100;
+  transition: 1s ease-in-out;
+}
+
+.flightDisplay-active {
+  top: 0px;
+}
